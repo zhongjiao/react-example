@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  height: 1.5rem;
+  color: #fff;
+  line-height: 1.5rem;
+}
+.appLayoutBg {
+  background-color: #fff;
+}

@@ -1,0 +1,15 @@
+.dashboard > div:not(:nth-child(3n)) {
+	border-right: 1px solid #eee;
+}
+.dashboard > div {
+	height: 2rem;
+	line-height: 2rem;
+	border-bottom: 1px solid #eee;
+}
+.linkColor {
+	display: inline-block;
+	line-height: 2rem;
+	width: 100%;
+	color: #999!important;
+	text-decoration: none!important;
+}
