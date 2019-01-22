@@ -1,6 +1,0 @@
-.background {
-	background-color: rgb(14, 18, 38);
-	background-image: -webkit-gradient(radial, 200 66%, 1, 200 66%, 50, from(rgba(238,238,238,.2)), to(rgba(238,238,238,0)));
-	background-image: -moz-radial-gradient(200px 66%, circle, rgba(238,238,238,.2) 1, rgba(238,238,238,0) 50);
-	overflow: hidden;
-}
