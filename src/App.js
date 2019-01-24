@@ -12,17 +12,12 @@ import Counter from './pages/counter';
 import Todo from './pages/todo';
 
 const App = ({store}) => {
-  // const Child = ({ match }) => {
-  //   console.log('index: ', match)
-
-  //   return <DashBoard />
-  // }
   return (
     <div className="App toFlex">
       <Provider store={store}>
         <Router>
           <Switch>
-            <Route path="/costControl/:id" component={CostControl} />
+            <Route path="/route-config" component={CostControl} />
             <Route path="/operation" component={Operation} />
             <Route path="/light" component={Light} />
             <Route path="/cal" component={Cal} />

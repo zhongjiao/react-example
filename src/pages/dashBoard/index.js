@@ -9,13 +9,13 @@ const random = () => Math.random().toString(32).substring(3, 8)
 class ListDashboard extends Component {
   state = {
     dashboards: [
-      { id: random(), label: '费控', value: 'costControl/2' },
+      { id: random(), label: '路由配置', value: 'route-config' },
       { id: random(), label: '智能运维', value: 'operation' },
       { id: random(), label: '灯光背景', value: 'light' },
       { id: random(), label: '日历特效', value: 'cal' },
       { id: random(), label: '计数', value: 'counter' },
       { id: random(), label: 'Todo', value: 'todo' },
-      { id: random(), label: '小不点', value: 'cost' }
+      { id: random(), label: '点', value: 'cost' }
     ]
   }
 	render() {
@@ -33,7 +33,6 @@ class ListDashboard extends Component {
 				<Menu.Item key="3">3rd item</Menu.Item>
 			</Menu>
 		)
-		console.log('index: ', this.props)
 		return (
 			<Layout className="appLayoutBg">
 				<ReHeader className="header" title="列表页">
