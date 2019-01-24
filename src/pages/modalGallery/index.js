@@ -10,7 +10,7 @@ class Operation extends Component {
 
     return (
       <Layout className="appLayoutBg">
-        <ReHeader className="header" isBack title="智能运维" />
+        <ReHeader className="header" isBack title="模态" />
         <Content>
 				  this is <span className="test">Operation</span>
         </Content>

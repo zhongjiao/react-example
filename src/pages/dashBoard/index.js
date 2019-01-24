@@ -10,7 +10,7 @@ class ListDashboard extends Component {
   state = {
     dashboards: [
       { id: random(), label: '费控', value: 'costControl/2' },
-      { id: random(), label: '智能运维', value: 'operation' },
+			{ id: random(), label: '模态', value: 'modal-gally' },
       { id: random(), label: '灯光背景', value: 'light' },
       { id: random(), label: '日历特效', value: 'cal' },
       { id: random(), label: '计数', value: 'counter' },

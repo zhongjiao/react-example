@@ -4,7 +4,7 @@ import './assets/style/App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import CostControl from './pages/costControl';
-import Operation from './pages/operation';
+import ModalGallery from "./pages/modalGallery";
 import DashBoard from './pages/dashBoard';
 import Light from './pages/light';
 import Cal from './pages/cal';
@@ -17,13 +17,12 @@ const App = ({store}) => {
 
   //   return <DashBoard />
   // }
-  return (
-    <div className="App toFlex">
+  return <div className="App toFlex">
       <Provider store={store}>
         <Router>
           <Switch>
-            <Route path="/costControl/:id" component={CostControl} />
-            <Route path="/operation" component={Operation} />
+            <Route path="/costControl" component={CostControl} />
+            <Route path="/modal-gally" component={ModalGallery} />
             <Route path="/light" component={Light} />
             <Route path="/cal" component={Cal} />
             <Route path="/counter" component={Counter} />
@@ -32,8 +31,7 @@ const App = ({store}) => {
           </Switch>
         </Router>
       </Provider>
-    </div>
-  )
+    </div>;
 }
 
 // App.propTypes = {
