@@ -3,8 +3,8 @@ import './assets/style/App.css';
 // import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import CostControl from './pages/costControl';
-import Operation from './pages/operation';
+import RouteConfig from './pages/routeConfig';
+import ModalGallery from './pages/modalGallery';
 import DashBoard from './pages/dashBoard';
 import Light from './pages/light';
 import Cal from './pages/cal';
@@ -17,8 +17,8 @@ const App = ({store}) => {
       <Provider store={store}>
         <Router>
           <Switch>
-            <Route path="/route-config" component={CostControl} />
-            <Route path="/operation" component={Operation} />
+            <Route path="/route-config" component={RouteConfig} />
+            <Route path="/modal-gallery" component={ModalGallery} />
             <Route path="/light" component={Light} />
             <Route path="/cal" component={Cal} />
             <Route path="/counter" component={Counter} />
