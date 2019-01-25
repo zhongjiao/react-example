@@ -10,6 +10,7 @@ import Light from './pages/light';
 import Cal from './pages/cal';
 import Counter from './pages/counter';
 import Todo from './pages/todo';
+import QueryParams from './pages/queryParams';
 
 const App = ({store}) => {
   return (
@@ -23,6 +24,7 @@ const App = ({store}) => {
             <Route path="/cal" component={Cal} />
             <Route path="/counter" component={Counter} />
             <Route path="/todo" component={Todo} />
+            <Route path="/query-params" component={QueryParams} />
             <Route path="/" component={DashBoard} />
           </Switch>
         </Router>

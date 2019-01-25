@@ -15,7 +15,7 @@ class ListDashboard extends Component {
       { id: random(), label: '日历特效', value: 'cal' },
       { id: random(), label: '计数', value: 'counter' },
       { id: random(), label: 'Todo', value: 'todo' },
-      { id: random(), label: '点', value: 'cost' }
+      { id: random(), label: '查询参数', value: 'query-params' }
     ]
   }
 	render() {
