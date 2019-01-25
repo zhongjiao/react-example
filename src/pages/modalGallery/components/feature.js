@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 
 const Feature = () => (
   <div>
+    <Link to="/modal-gallery/gallery">Visit the Gallery</Link>
     <h2>Featured Image</h2>
     <ul>
       <li>
-        <Link to="/img/2">Tomato</Link>
+        <Link to="/modal-gallery/img/2">Tomato</Link>
       </li>
       <li>
-        <Link to="/img/4">Crimson</Link>
+        <Link to="/modal-gallery/img/4">Crimson</Link>
       </li>
     </ul>
   </div>

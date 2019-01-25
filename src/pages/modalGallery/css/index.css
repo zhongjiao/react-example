@@ -1,0 +1,18 @@
+.gallery-img {
+	width: 80%;
+	height: 400px;
+}
+.little-block {
+	width: 100px;
+	height: 100px;
+}
+.gallery-modal {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	width: 80%;
+	height: 80%;
+	border: 2px solid #ccc;
+}

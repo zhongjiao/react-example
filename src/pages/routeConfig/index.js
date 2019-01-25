@@ -11,7 +11,7 @@ class CostControl extends Component {
     const { Content } = Layout;
     return (
       <Layout className="appLayoutBg">
-        <ReHeader className="header" isBack title="费控审批" />
+        <ReHeader className="header" isBack title="路由配置" />
         <Content>
 				  <ul>
             <MainHeadList routes={routes} />
