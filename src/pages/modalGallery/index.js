@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import ReHeader from '../../components/re-header';
 import { Layout } from 'antd';
+import Feature from './components/feature'
 
-class Operation extends Component {
+class ModalGallery extends Component {
   
   render() {
     
@@ -10,13 +11,13 @@ class Operation extends Component {
 
     return (
       <Layout className="appLayoutBg">
-        <ReHeader className="header" isBack title="智能运维" />
+        <ReHeader className="header" isBack title="模态" />
         <Content>
-				  this is <span className="test">Operation</span>
+
         </Content>
       </Layout>
     );
   }
 }
 
-export default Operation;
+export default ModalGallery;
