@@ -4,7 +4,6 @@ import theme from '../theme'
 const ImgPad = ({ match, history }) => {
 	
 	const item = theme[Number(match.params.color)]
-	console.log(history)
 
 	return (
 		<div>
