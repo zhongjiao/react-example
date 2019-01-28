@@ -1,9 +1,11 @@
 {
   "name": "antd-demo",
   "version": "0.1.0",
+  "homepage": "http://zhongjiao.github.io/react-example",
   "private": true,
   "dependencies": {
     "antd": "^3.11.6",
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -13,6 +15,8 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/style/App.css';
 // import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import RouteConfig from './pages/routeConfig';
 import ModalGallery from './pages/modalGallery';
